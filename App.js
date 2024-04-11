@@ -4,9 +4,8 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text>Hello world</Text>
       <Text>primera app</Text>
-      <Text>primera app</Text>
-      <Text>Open up App.js 3000</Text>
       <Text>Open up App.js 3000</Text>
       <TextInput style={styles.input} placeholder="entra"></TextInput>
       <StatusBar style="auto" />
@@ -28,6 +27,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     paddingHorizontal: 10,
     paddingVertical: 1,
-    borderRadius: 4
+    borderRadius: 4,
+    color: "#000",
   },
 });
